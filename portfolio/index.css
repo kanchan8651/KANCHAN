@@ -1,0 +1,129 @@
+.profile{
+    width: 250px;
+    border-radius: 50%;
+    border: 4px rgb(255 00 240);
+    margin: 50PX
+}
+span {
+    color:red
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+}
+body{
+    background:rgb(66, 122, 121)
+}
+nav a{
+
+   color: rgb(247, 247, 247);
+   margin-left: 3rem;
+   font-weight: 500;
+   transition:0.3s ease:
+   text-decoration: none;
+   font: size: 20.8rem;
+}
+  
+    .home{
+   display: flex;
+   align-items: left;
+   justify-content: space-around;
+   margin-top: 50px
+    }
+   
+   .social-icons a{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 4rem;
+height:8%;
+background-color: trans
+border: 0.2rem solid
+font-size: 4rem;
+border-radius: 80%;
+marain: 3rem 1 5rem 3re
+transition: 3.3s ease;
+font-size:35px;
+   }
+   
+.logo{
+    font-size: 40px;
+    color: brown;
+    display: flex;
+    
+}
+
+   header{
+    justify-content:center;
+    align-items:center;
+   }
+   .typing-text span::before{
+        content:"full stack Developer";
+        animation:words 20sindefinite
+   }
+   img:hover{
+    transform: scale(1.05);
+    transition:0.5s;
+   }
+   .photo{
+    width:270px;
+    height:270px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.photo::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+
+    background: conic-gradient(
+        #00f7ff,
+        #ff00ff,
+        #ffee00,
+        #00ff88,
+        #00f7ff
+    );
+
+    animation: neonRotate 3s linear infinite;
+
+    box-shadow:
+    0 0 20px #00f7ff,
+    0 0 40px #ff00ff,
+    0 0 60px #c03333;
+}
+
+.photo img{
+    width:240px;
+    height:240px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    position:relative;
+    z-index:1;
+}
+
+@keyframes neonRotate{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.photo{
+margin: left 700px ;
+margin: top 250px;
+position:absolute;
+right: 100px;
+top: 150px;
+}
+.home{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
