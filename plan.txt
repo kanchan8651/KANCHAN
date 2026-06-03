@@ -1,0 +1,21 @@
+             get apis
+1>weather->weather update
+2>crop-guide ->crop guidance /recommendations
+3>market-prices->market price
+4>soil-health->soil health reports
+5>farming-alert->farming alert
+6>equipment-rentals->Available equipment list
+7>user/profile->user profile
+8>dashboard->Dashboard data
+
+
+
+            post api
+login ->User login
+register → New user registration
+crop-recommendation → Crop details bhejkar recommendation lena
+soil-analysis → Soil data submit karna
+ai-assistant/query → Al Farming Assistant ko question bhejna
+equipment-rental/book → Equipment booking
+contact → Contact form submit karna
+feedback → Feedback submit karna
